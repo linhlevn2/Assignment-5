@@ -20,4 +20,6 @@
     <string name="dish666">With warmer weather comes grilling season and one of the easiest and healthiest foods you can prepare on a grill, whether it’s gas or charcoal, is salmon. There is a trick to grilling salmon, though, that once you know will transform your success with grilling this fish forever. The secret?  Use skin-on fillets and place the salmon fillets on the hot grill skin-side up first.  The fillets, when raw, won’t flake and fall apart like they will when they are cooked. So, you sear the raw skinless side first, only enough to get some good grill marks and an edge of cooked fish, then you carefully flip it and finish your cooking at a lower temperature with the skin-side down.  This way, the skin will help keep the fillet together and help keep it from flaking apart and falling into your grill while the fish cooks.</string>
     <string name="btn">Up</string>
     <string name="welcome">Welcome to Simple Recipe!</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
 </resources>

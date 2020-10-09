@@ -17,7 +17,7 @@ public class ActivityOpening extends AppCompatActivity {
         setContentView(R.layout.activity_opening);
         song = MediaPlayer.create(this, R.raw.song);
         song.start();
-        
+
         TimerTask task = new TimerTask() {
             @Override
             public void run() {
