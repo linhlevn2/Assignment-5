@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/food"
-    tools:context="com.example.myapplication5.activity_opening">
+    tools:context="com.example.myapplication5.ActivityOpening">
 
     <TextView
         android:id="@+id/textView7"

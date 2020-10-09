@@ -8,7 +8,7 @@ import android.os.Bundle;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class activity_opening extends AppCompatActivity {
+public class ActivityOpening extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +18,7 @@ public class activity_opening extends AppCompatActivity {
             @Override
             public void run() {
                 finish();
-                startActivity(new Intent(activity_opening.this, MainActivity.class));
+                startActivity(new Intent(ActivityOpening.this, MainActivity.class));
             }
         };
         Timer opening = new Timer();
