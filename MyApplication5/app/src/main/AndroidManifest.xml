@@ -9,13 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.myapplication5.MainActivity7"></activity>
-        <activity android:name="com.example.myapplication5.MainActivity6" />
-        <activity android:name="com.example.myapplication5.MainActivity5" />
-        <activity android:name="com.example.myapplication5.MainActivity4" />
-        <activity android:name="com.example.myapplication5.MainActivity3" />
-        <activity android:name="com.example.myapplication5.MainActivity2" />
-        <activity android:name="com.example.myapplication5.MainActivity">
+        <activity android:name=".activity_opening"></activity>
+        <activity android:name=".MainActivity7" />
+        <activity android:name=".MainActivity6" />
+        <activity android:name=".MainActivity5" />
+        <activity android:name=".MainActivity4" />
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
