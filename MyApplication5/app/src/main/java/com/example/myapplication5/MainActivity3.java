@@ -13,12 +13,5 @@ public class MainActivity3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
-        Button button = findViewById(R.id.button2);
-        button.setOnClickListener((new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity3.this, MainActivity.class));
-            }
-        }));
     }
 }

@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 
+import com.example.myapplication5.dummy.DummyContent;
+
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -23,7 +25,7 @@ public class ActivityOpening extends AppCompatActivity {
             public void run() {
                 song.stop();
                 finish();
-                startActivity(new Intent(ActivityOpening.this, MainActivity.class));
+                startActivity(new Intent(ActivityOpening.this, ItemListActivity.class));
             }
         };
         Timer opening = new Timer();
