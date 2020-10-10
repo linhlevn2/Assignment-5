@@ -42,6 +42,12 @@ public class ItemListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_item_list);
 
+        DummyContent.addItem(new DummyContent.DummyItem("2", getResources().getString(R.string.dish1), getResources().getString(R.string.dish11)));
+        DummyContent.addItem(new DummyContent.DummyItem("3", getResources().getString(R.string.dish2), getResources().getString(R.string.dish22)));
+        DummyContent.addItem(new DummyContent.DummyItem("3", getResources().getString(R.string.dish3), getResources().getString(R.string.dish33)));
+        DummyContent.addItem(new DummyContent.DummyItem("3", getResources().getString(R.string.dish4), getResources().getString(R.string.dish44)));
+        DummyContent.addItem(new DummyContent.DummyItem("3", getResources().getString(R.string.dish5), getResources().getString(R.string.dish55)));
+        DummyContent.addItem(new DummyContent.DummyItem("3", getResources().getString(R.string.dish6), getResources().getString(R.string.dish66)));
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         toolbar.setTitle(getTitle());
@@ -117,7 +123,7 @@ public class ItemListActivity extends AppCompatActivity {
 
         @Override
         public void onBindViewHolder(final ViewHolder holder, int position) {
-            holder.mIdView.setText(mValues.get(position).id);
+            holder.mIdView.setText(mValues.get(position).title);
             holder.mContentView.setText(mValues.get(position).content);
 
             holder.itemView.setTag(mValues.get(position));
