@@ -44,10 +44,10 @@ public class ItemListActivity extends AppCompatActivity {
 
         DummyContent.addItem(new DummyContent.DummyItem("2", getResources().getString(R.string.dish1), getResources().getString(R.string.dish11)));
         DummyContent.addItem(new DummyContent.DummyItem("3", getResources().getString(R.string.dish2), getResources().getString(R.string.dish22)));
-        DummyContent.addItem(new DummyContent.DummyItem("3", getResources().getString(R.string.dish3), getResources().getString(R.string.dish33)));
-        DummyContent.addItem(new DummyContent.DummyItem("3", getResources().getString(R.string.dish4), getResources().getString(R.string.dish44)));
-        DummyContent.addItem(new DummyContent.DummyItem("3", getResources().getString(R.string.dish5), getResources().getString(R.string.dish55)));
-        DummyContent.addItem(new DummyContent.DummyItem("3", getResources().getString(R.string.dish6), getResources().getString(R.string.dish66)));
+        DummyContent.addItem(new DummyContent.DummyItem("4", getResources().getString(R.string.dish3), getResources().getString(R.string.dish33)));
+        DummyContent.addItem(new DummyContent.DummyItem("5", getResources().getString(R.string.dish4), getResources().getString(R.string.dish44)));
+        DummyContent.addItem(new DummyContent.DummyItem("6", getResources().getString(R.string.dish5), getResources().getString(R.string.dish55)));
+        DummyContent.addItem(new DummyContent.DummyItem("7", getResources().getString(R.string.dish6), getResources().getString(R.string.dish66)));
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         toolbar.setTitle(getTitle());
